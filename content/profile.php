@@ -83,7 +83,7 @@ session_start();
     <header id="header">
         <div class="left">
             <div class="menuItem">
-                <a href="/NewsPortal/index.php" class="menuItems">Home</a>
+                <a href="/index.php" class="menuItems">Home</a>
 
                 <?php
                 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {

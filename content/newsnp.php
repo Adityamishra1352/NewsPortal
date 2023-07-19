@@ -74,7 +74,7 @@ include '_dbconnect.php';
         <div class="left">
             
             <div class="menuItem">
-                <a href="/NewsPortal/index.php" class="menuItems">Home</a>
+                <a href="/index.php" class="menuItems">Home</a>
                 <a href="changemaker.php" class="menuItems">Change Maker</a>
                 <div class="menuSiteLogoIcon">
                 <img src="images/wd.png" height="50px" width="50px" />
