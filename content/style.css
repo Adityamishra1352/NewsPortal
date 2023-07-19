@@ -1,0 +1,253 @@
+@font-face {
+    font-family: icomoon;
+    src: url(//storage.googleapis.com/caravan-b/d-cdn/fonts/icomoon.55eab88.eot);
+    src: url(//storage.googleapis.com/caravan-b/d-cdn/fonts/icomoon.55eab88.eot#iefix) format("embedded-opentype"),url(//storage.googleapis.com/caravan-b/d-cdn/fonts/icomoon.5f190f9.ttf) format("truetype"),url(//storage.googleapis.com/caravan-b/d-cdn/fonts/icomoon.3f8afaf.woff) format("woff"),url(//storage.googleapis.com/caravan-b/d-cdn/img/icomoon.9e60e64.svg#icomoon) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+body{
+    line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.main-container{
+    max-width: 960px;
+    width: 960px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main-container h1{
+    margin: 2.5rem 0 1.5rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 2.5rem;
+    color: #363636;
+    font-weight: 600;
+    line-height: 1.125;
+    word-break: break-word;
+    font-family: Vesper Libre,Georgia,Times New Roman,Times,serif;
+}
+.bot-heading{
+    text-align: start !important;
+    font-size: 2.1rem !important;
+}
+.top-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 1.5%;
+}
+.top-container h2{
+    color: #b5b5b5;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 60px;
+    font-family: Montserrat,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;;
+}
+.top-container h2:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.top-container h3{
+    height: 3.2rem;
+    line-height: 1.6rem;
+    font-size: 1.25rem;
+    color: #363636;
+    font-weight: 600;
+    word-break: break-word;
+    margin-bottom: 10px;
+}
+.top-container h3:hover{
+    text-decoration: underline;
+    text-decoration-color: #363636;
+}
+.top-container h4{
+    margin: 5px 0;
+    display: block;
+    color: #217af4;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: Montserrat,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;;
+}
+.top-container h4:hover{
+    text-decoration: underline;
+    text-decoration-color: #217af4;
+}
+.top-left-card{
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid #dbdbdb;
+}
+.container{
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid #dbdbdb;
+}
+.top-right-card{
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid #dbdbdb;
+}
+.top-container .img-wrapper{
+    overflow: hidden;
+    display: block;
+    /* position: relative; */
+    width: 100%;
+    min-height: 313px;
+}
+.top-container .img-wrapper img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: contain;
+    background: #f5f5f5;
+}
+.top-container .card-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-container .card-bottom span{
+    color: #7a7a7a;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    font-family: Montserrat,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.top-container .card-bottom span:nth-child(1){
+    text-transform: uppercase;
+}
+.bottom-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bot-main-container{
+    flex: 3;
+}
+.bot-container-card{
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 1rem;
+    margin: 2rem 0;
+}
+.bot-card-left{
+    position: relative;
+    width: 40%;
+    flex: 2;
+}
+.bot-card-right{
+    position: relative;
+    width: 50%;
+    flex-direction: column;
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+}
+.bot-img-wrapper{
+    overflow: hidden;
+    display: block;
+    position: relative;
+    min-height: 168px;
+    height: 168px;
+    width: 100%;
+}
+.bot-img-wrapper img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.bot-card-top .bot-tp{
+    color: #217af4;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: Montserrat,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;;
+}
+.bot-card-top span::before{
+    content: "/";
+    margin: 0 0.2rem;
+    color: #b5b5b5;
+}
+.bot-sec-span a{
+    color: #b5b5b5;
+}
+.bot-card-top span{
+    color: #b5b5b5;
+    text-transform: uppercase;
+    font-family: Montserrat,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.bot-top-title a{
+    color: #363636;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.125;
+    font-family: Vesper Libre,Georgia,Times New Roman,Times,serif;
+}
+.bot-card-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bot-card-bottom span{
+    color: #7a7a7a;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    font-family: Montserrat,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.bot-card-bottom span:nth-child(1){
+    text-transform: uppercase;
+}
+
+.bot-ad{
+    flex: 1;
+}
+.bot-ad p{
+    width: 100%;
+    text-align: center;
+    background: #f8f8f8;;
+}
+
+@media(max-width:1080px){
+    .top-left-card{
+        width: 100%;
+    }
+    .top-right-card{
+        width: 100%;
+    }
+}
+@media(max-width:960px){
+    .main-container{
+        max-width: 100%;
+        width: 100%;
+    }
+}
+@media(max-width:758px){
+    .top-container{
+        flex-direction: column;
+    }
+
+    .bot-ad{
+        display: none;
+    }
+}

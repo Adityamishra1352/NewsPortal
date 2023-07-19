@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  background: rgb(0, 0, 255);
+  padding: 10px 12px;
+  position: sticky;
+}
+
+.menuItem {
+  display: flex;
+  width: 100%;
+  transition: all 0.5s ease-in;
+}
+
+.menuItems {
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
+  padding: 0px 10px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuItems:hover {
+  opacity: 1;
+}
+
+.menuSiteLogoIcon i {
+  display: none;
+}
+
+.right {
+  display: flex;
+  background: rgb(12, 12, 93);
+  position: sticky;
+  overflow-x: scroll;
+}
+
+.right a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  padding: 14px 12px;
+  min-width: fit-content;
+}
+.right a:hover {
+  background-color: rgb(7, 7, 236);
+  text-decoration: underline;
+}
+
+.headerSearch {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+#headerSearchBox {
+  padding: 8px 10px;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+}
+
+.headerSearchBtn {
+  border: 1px solid #ffffff;
+  padding: 8px;
+  cursor: pointer;
+  color: #ffffff;
+  margin-left: 12px;
+  border-radius: 4px;
+}
+.main_page {
+  padding: 10px;
+  /* height: ; */
+}
+.main_page span {
+  font-size: 16px;
+}
+.main_page button {
+  padding: 10px;
+  background-color: lightblue;
+  transition: all ease-in 1s;
+  border: 0;
+}
+.main_page button:hover {
+  padding: 15px;
+  background-color: blue;
+  color: white;
+}
+.editProfile {
+  display: flex;
+  padding: 20px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in 1s;
+}
+.editProfileContainer {
+  padding: 10px;
+  width: 60%;
+  box-shadow: 5px 10px lightgray;
+}
+.editProfileContainer .heading {
+  background-color: red;
+  color: black;
+  padding: 20px;
+  width: 90%;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+.editProfileContainer .content {
+  padding: 10px;
+}
+.editProfileContainer label {
+  font-size: 17px;
+  font-weight: 700;
+}
+.editProfileContainer textarea {
+  border: 1px solid lightgray;
+}
+.editProfileContainer input {
+  padding: 10px;
+  width: 60%;
+}
+.editProfileContainer button {
+  padding: 10px;
+  width: 30%;
+}

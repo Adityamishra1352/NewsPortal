@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  background: rgb(0, 0, 255);
+  padding: 10px 12px;
+  position: sticky;
+}
+
+.menuItem {
+  display: flex;
+  width: 100%;
+  transition: all 0.5s ease-in;
+}
+
+.menuItems {
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
+  padding: 0px 10px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuItems:hover {
+  opacity: 1;
+}
+
+.menuSiteLogoIcon i {
+  display: none;
+}
+
+.right {
+  display: flex;
+  background: rgb(12, 12, 93);
+  position: sticky;
+  overflow-x: scroll;
+}
+
+.right a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  padding: 14px 12px;
+  min-width: fit-content;
+}
+.right a:hover {
+  background-color: rgb(7, 7, 236);
+  text-decoration: underline;
+}
+
+.headerSearch {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+#headerSearchBox {
+  padding: 8px 10px;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+}
+
+.headerSearchBtn {
+  border: 1px solid #ffffff;
+  padding: 8px;
+  cursor: pointer;
+  color: #ffffff;
+  margin-left: 12px;
+  border-radius: 4px;
+}
+.changeMakersContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 30px;
+    background: inherit;
+    outline: none;
+    overflow: auto;
+}
+.profileContainer{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in 1s;
+  box-shadow: 5px 10px lightgray;
+}
+.profileContainer:hover{
+  padding: 20px;
+  box-shadow: 10px 15px lightgray;
+}
+.profileImage{
+  width: 40%;
+  border-radius: 60%;
+}
