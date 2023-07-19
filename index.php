@@ -75,7 +75,7 @@
     <div class="left">
 
       <div class="menuItem">
-        <a href="home.php" class="menuItems">Home</a>
+        <a href="index.php" class="menuItems">Home</a>
         <?php if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
           echo '<a href="content/login.php" class="menuItems">Log-in</a>';
         } else {

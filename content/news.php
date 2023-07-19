@@ -85,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         <div class="left">
             
             <div class="menuItem">
-                <a href="/NewsPortal/home.php" class="menuItems">Home</a>
+                <a href="/NewsPortal/index.php" class="menuItems">Home</a>
                 <a href="changemaker.php" class="menuItems">Change Maker</a>
                 <div class="menuSiteLogoIcon">
                 <img src="images/wd.png" height="50px" width="50px" />

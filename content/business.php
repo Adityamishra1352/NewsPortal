@@ -70,7 +70,7 @@
         <div class="left">
             
             <div class="menuItem">
-                <a href="/NewsPortal/home.php" class="menuItems">Home</a>
+                <a href="/NewsPortal/index.php" class="menuItems">Home</a>
                 <a href="singUp.php" class="menuItems">Signup</a>
                 <div class="menuSiteLogoIcon">
                 <img src="images/wd.png" height="50px" width="50px" />
