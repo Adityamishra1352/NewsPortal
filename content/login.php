@@ -49,9 +49,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <link rel="stylesheet" href="/NewsPortal/home.css" />
+  <link rel="stylesheet" href="/home.css" />
   <link rel="stylesheet" href="login.css" />
-  <link rel="stylesheet" href="/NewsPortal/headerchange.css">
+  <link rel="stylesheet" href="/headerchange.css">
   <script src="https://kit.fontawesome.com/5544926563.js" crossorigin="anonymous"></script>
   <style>
     .newsHighlightedLeftHeading {
